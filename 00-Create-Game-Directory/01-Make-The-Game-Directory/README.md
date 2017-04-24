@@ -9,6 +9,7 @@ We are going to create the basic files required for a simple front-end game in f
 2. Make basic HTMl, CSS, and JS files
 3. Add some simple functioning code
 4. Connect the files to each other
+5. Admire our progess
 
 ## Time estimate:  30 minutes
 
@@ -58,16 +59,7 @@ a. Create a very basic webpage:
 
 </html>
 ```
-
-b. Check out the web page in your browser
-
-	- Right click on the index.html page in Sublime, and 
-	- Select `Open in Browser`, OR, from your browser
-	- Go to `file`, `open file`, 
-	- Find the file, and open it
-	- "Hello World!" should be displayed front and center
-
-c. In `index.html`, add a`.game-outline` class to your `<div>` tag
+b. In `index.html`, add a`.game-outline` class to your `<div>` tag
 
 ```html
 <!-- index.html -->
@@ -75,7 +67,7 @@ c. In `index.html`, add a`.game-outline` class to your `<div>` tag
 	<h1>Hello World!</h1>
 </div>
 ```
-d. In `main.css`, add simple styling for the `.game-outline` class:
+c. In `main.css`, add simple styling for the `.game-outline` class:
 
 `in main.css:`
 
@@ -86,3 +78,29 @@ d. In `main.css`, add simple styling for the `.game-outline` class:
 	outline: 1px solid orange;
 }
 ```
+
+d. In `main.js`, add simple js code
+
+`in main.js:`
+
+```javascript
+
+// Add some code to trigger stronger error messages
+"use strict()";
+
+// Add at simple bit of code to verify the linkage
+
+alert("javaScript is connected")
+
+```
+
+
+5. Admire our progress
+
+Check out the web page in your browser
+
+	a. Right click on the index.html page in Sublime, and 
+	b. Select `Open in Browser`, OR, from your browser
+	c. Go to `file`, `open file`, 
+	d. Find the file, and open it
+	e. "Hello World!" should be displayed front and center
