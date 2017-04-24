@@ -56,7 +56,7 @@ We are going to create the basic files required for a simple front-end game in f
 
 </html>
 ```
-and here
+
 	- b. Check out the web page in your browser
 		- Right click on the index.html page in Sublime, and 
 		- Select `Open in Browser`, OR, from your browser
