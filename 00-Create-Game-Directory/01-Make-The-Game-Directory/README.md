@@ -117,8 +117,7 @@ in the `<head>` section of `index.html`:
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 ```
-
-*Check it out. Refresh your webpage. Now you should see an orange outline around the div containing your "Hello World!" message*
+*Check it out: Refresh your webpage. Now you should see an orange outline around the div containing your "Hello World!" message*
 
 #### b. Link the JS file
 
@@ -127,9 +126,15 @@ Always some controversy about where to put the js link.  I like to put it at the
 just before the end tag in`</body>` section of `index.html`:
 
 ```javascript
-
+	<!-- 04. Add a link for the JS file (main.js) -->
+	<script type="text/javascript" src="main.js"></script>
+</body>
 ```
+*Check it out: Refresh your webpage. Now you should see an alert message tha pops up saying "javaScript is connected"*
 
+That's it for this section.  You now have a game folder with three linked files for HTML, CSS, and JS
 
+## In the next Secton:
 
+[pending]
 
