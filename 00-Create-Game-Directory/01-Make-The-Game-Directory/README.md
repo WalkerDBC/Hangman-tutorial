@@ -32,5 +32,25 @@ We are going to create the basic files required for a simple front-end game in f
 	- this is the file used for the game logic and behavior
 
 3. Add some simple code
-
+- make a simple html page:
 `//index.html`
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- 01. Provide a title for your game -->
+	<title>My-Hangman</title>
+</head>
+
+<body>
+	<!-- 02. Add a little content... -->
+	<h1>Hello World!</h1>
+
+</body>
+
+</html>
+
+```
+
