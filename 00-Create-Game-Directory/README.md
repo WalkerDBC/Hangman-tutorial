@@ -6,5 +6,5 @@ The challnge of the exercise is to use primiarily CSS, HTML, and basic JS (not J
 
 ## Steps in the Process
 
-* [00-Setting-Up]
-* 01-Make-The-Game-Directory
+* 00-Setting-Up [link]
+* 01-Make-The-Game-Directory [link]
