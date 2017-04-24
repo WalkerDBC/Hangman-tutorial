@@ -67,7 +67,9 @@ Now Check out the web page in your browser
 	- Find the file, and open it
 	- "Hello World!" should be displayed front and center
 
-b. In `index.html`, add a`.game-outline` class to your `<div>` tag
+#### b. Add a`.game-outline` class to your `<div>` tag
+
+in `index.html`:
 
 ```html
 <!-- index.html -->
@@ -77,7 +79,7 @@ b. In `index.html`, add a`.game-outline` class to your `<div>` tag
 ```
 c. In `main.css`, add simple styling for the `.game-outline` class:
 
-`in main.css:`
+in `main.css`:
 
 ```css
 /*  OUTLINE STYLING */
@@ -89,7 +91,7 @@ c. In `main.css`, add simple styling for the `.game-outline` class:
 
 #### d. Add some simple js code
 
-in `main.js:`
+in `main.js`:
 
 ```javascript
 // Add some code to trigger stronger error messages
@@ -101,7 +103,8 @@ alert("javaScript is connected")
 ```
 
 ### 4. Connect the files to each other
-a. Link the CSS file to HTML file
+
+#### a. Link the CSS file to HTML file
 
 in the `<head>` section of `index.html`:
 
@@ -121,7 +124,11 @@ in the `<head>` section of `index.html`:
 
 Always some controversy about where to put the js link.  I like to put it at the bottom of page for a simple app like this one.  That way, we know the page will load before the js file is used.
 
-in the `<head>` section of `index.html`:
+just before the end tag in`</body>` section of `index.html`:
+
+```javascript
+
+```
 
 
 
