@@ -32,4 +32,5 @@ We are going to create the basic files required for a simple front-end game in f
 	- this is the file used for the game logic and behavior
 
 3. Add some simple code
+
 `//index.html`
