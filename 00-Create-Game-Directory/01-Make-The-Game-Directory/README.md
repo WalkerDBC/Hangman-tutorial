@@ -73,6 +73,7 @@ We are going to create the basic files required for a simple front-end game in f
 	<h1>Hello World!</h1>
 </div>
 ```
+why not
 	- d. In `main.css`, add simple styling for the `.game-outline` class:
 
 `in main.css:`
