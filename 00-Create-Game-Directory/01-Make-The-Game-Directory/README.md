@@ -25,16 +25,17 @@ We are going to create the basic files required for a simple front-end game in f
 
 2. Make basic HTMl, CSS, and JS files
 	
-	Inside of this folder, place the following files
-	- a. `index.html`: this is the home page for the game
-	- b.  `main.css`: this is the file used to create the look of the page
-	- c. `main.js`: this is the file used for the game logic and behavior
+Inside of this folder, place the following files
+
+	a. `index.html`: this is the home page for the game
+	b.  `main.css`: this is the file used to create the look of the page
+	c. `main.js`: this is the file used for the game logic and behavior
 
 3. Add some simple code
 
 	Now lets add just a little code so that we can see how everything is linking and working
 
-	- a. Create a very basic webpage:
+a. Create a very basic webpage:
 
 `in index.html:`
 
@@ -58,6 +59,7 @@ We are going to create the basic files required for a simple front-end game in f
 ```
 
 b. Check out the web page in your browser
+
 	- Right click on the index.html page in Sublime, and 
 	- Select `Open in Browser`, OR, from your browser
 	- Go to `file`, `open file`, 
