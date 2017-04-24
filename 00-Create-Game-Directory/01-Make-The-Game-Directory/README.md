@@ -48,13 +48,27 @@ We are going to create the basic files required for a simple front-end game in f
 </head>
 
 <body>
+
 	<!-- 02. Add a little content... -->
-	<h1>Hello World!</h1>
+	<div>
+		<h1>Hello World!</h1>
+	</div>
+
 </body>
 
 </html>
 ```
 
--  make a simple
+- add simple stying to our css file `main.css`:
+
+```css
 
 
+```
+- add a `.game-outline` class to your html `<div>` tag
+
+```html
+<!-- index.html -->
+
+
+```
