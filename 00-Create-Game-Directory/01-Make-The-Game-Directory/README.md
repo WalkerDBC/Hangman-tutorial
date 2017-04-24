@@ -9,7 +9,6 @@ We are going to create the basic files required for a simple front-end game in f
 2. Make basic HTMl, CSS, and JS files
 3. Add some simple functioning code
 4. Connect the files to each other
-5. Admire our progess
 
 ### Time estimate:  30 minutes
 
@@ -37,7 +36,7 @@ c. `main.js`: this is the file used for the game logic and behavior
 
 Now lets add just a little code so that we can see how everything is linking and working
 
-a. Create a very basic webpage:
+#### a. Create a very basic webpage:
 
 `in index.html:`
 
@@ -59,6 +58,15 @@ a. Create a very basic webpage:
 
 </html>
 ```
+
+Now Check out the web page in your browser
+
+	- Right click on the index.html page in Sublime, and 
+	- Select `Open in Browser`, OR, from your browser
+	- Go to `file`, `open file`, 
+	- Find the file, and open it
+	- "Hello World!" should be displayed front and center
+
 b. In `index.html`, add a`.game-outline` class to your `<div>` tag
 
 ```html
@@ -79,7 +87,7 @@ c. In `main.css`, add simple styling for the `.game-outline` class:
 }
 ```
 
-d. Add some simple js code
+#### d. Add some simple js code
 
 in `main.js:`
 
@@ -91,6 +99,7 @@ in `main.js:`
 
 alert("javaScript is connected")
 ```
+
 ### 4. Connect the files to each other
 a. Link the CSS file to HTML file
 
@@ -106,19 +115,14 @@ in the `<head>` section of `index.html`:
 </head>
 ```
 
-b. Link the JS file
+* Check it out. Refresh your webpage. Now you should see an orange outline around the div containing your "Hello World!" message *
+
+#### b. Link the JS file
 
 Always some controversy about where to put the js link.  I like to put it at the bottom of page for a simple app like this one.  That way, we know the page will load before the js file is used.
 
 in the `<head>` section of `index.html`:
 
 
-### 5. Admire our progress
 
-Check out the web page in your browser
 
-	a. Right click on the index.html page in Sublime, and 
-	b. Select `Open in Browser`, OR, from your browser
-	c. Go to `file`, `open file`, 
-	d. Find the file, and open it
-	e. "Hello World!" should be displayed front and center
