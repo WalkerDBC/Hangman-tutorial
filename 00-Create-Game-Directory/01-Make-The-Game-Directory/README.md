@@ -48,12 +48,10 @@ We are going to create the basic files required for a simple front-end game in f
 </head>
 
 <body>
-
 	<!-- 02. Add a little content... -->
 	<div>
 		<h1>Hello World!</h1>
 	</div>
-
 </body>
 
 </html>
