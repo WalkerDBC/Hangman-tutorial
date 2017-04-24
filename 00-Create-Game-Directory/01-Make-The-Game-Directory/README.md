@@ -36,7 +36,6 @@ We are going to create the basic files required for a simple front-end game in f
 
 ```html
 <!-- index.html -->
-`//index.html`
 
 <!DOCTYPE html>
 <html>
