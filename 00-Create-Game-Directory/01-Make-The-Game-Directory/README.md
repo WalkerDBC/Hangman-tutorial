@@ -38,33 +38,33 @@ We are going to create the basic files required for a simple front-end game in f
 
 `in index.html:`
 
-	```html
-	<!DOCTYPE html>
-	<html>
+```html
+<!DOCTYPE html>
+<html>
 
-	<head>
-		<!-- 01. Provide a ti tle for your game -->
-		<title>My-Hangman</title>
-	</head>
+<head>
+	<!-- 01. Provide a ti tle for your game -->
+	<title>My-Hangman</title>
+</head>
 
-	<body>
-		<!-- 02. Add a little content... -->
-		<div>
-			<h1>Hello World!</h1>
-		</div>
-	</body>
+<body>
+	<!-- 02. Add a little content... -->
+	<div>
+		<h1>Hello World!</h1>
+	</div>
+</body>
 
-	</html>
-	```
+</html>
+```
 
-	- b. Check out the web page in your browser
+	b. Check out the web page in your browser
 		- Right click on the index.html page in Sublime, and 
 		- Select `Open in Browser`, OR, from your browser
 		- Go to `file`, `open file`, 
 		- Find the file, and open it
 		- "Hello World!" should be displayed front and center
 
-	- c. In `index.html`, add a`.game-outline` class to your `<div>` tag
+	c. In `index.html`, add a`.game-outline` class to your `<div>` tag
 
 
 ```html
