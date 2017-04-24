@@ -34,9 +34,9 @@ We are going to create the basic files required for a simple front-end game in f
 
 	Now lets add just a little code so that we can see how everything is linking and working
 
-	- a. Add simple html content to `index.html`:
+	- a. Create a very basic webpage:
 
-`in index.html`
+`in index.html:`
 ```html
 <!DOCTYPE html>
 <html>
@@ -55,6 +55,7 @@ We are going to create the basic files required for a simple front-end game in f
 
 </html>
 ```
+
 	- b. Check out the web page in your browser
 		- Right click on the index.html page in Sublime, and 
 		- Select `Open in Browser`, OR, from your browser
@@ -63,6 +64,7 @@ We are going to create the basic files required for a simple front-end game in f
 		- "Hello World!" should be displayed front and center
 
 	- c. In `index.html`, add a`.game-outline` class to your `<div>` tag
+	
 
 ```html
 <!-- index.html -->
@@ -72,7 +74,7 @@ We are going to create the basic files required for a simple front-end game in f
 ```
 	- d. In `main.css`, add simple styling for the `.game-outline` class:
 
-` in main.css`
+`in main.css:`
 
 ```css
 /*  OUTLINE STYLING */
