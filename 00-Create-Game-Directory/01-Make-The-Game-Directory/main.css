@@ -1,3 +1,5 @@
+/*  OUTLINE STYLING */
+/* Provide a visualization of divs during development */
 .game-outline {
 	outline: 1px solid orange;
 }

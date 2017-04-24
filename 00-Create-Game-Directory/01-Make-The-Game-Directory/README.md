@@ -72,6 +72,12 @@ We are going to create the basic files required for a simple front-end game in f
 ```
 	- d. In `main.css`, add simple styling for the `.game-outline` class:
 
+//main.css
 ```css
+/*  OUTLINE STYLING */
+/* Provide a visualization of divs during development */
+.game-outline {
+	outline: 1px solid orange;
+}
 
 ```
