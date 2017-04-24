@@ -37,6 +37,7 @@ We are going to create the basic files required for a simple front-end game in f
 	- a. Create a very basic webpage:
 
 `in index.html:`
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -64,7 +65,7 @@ We are going to create the basic files required for a simple front-end game in f
 		- "Hello World!" should be displayed front and center
 
 	- c. In `index.html`, add a`.game-outline` class to your `<div>` tag
-	
+
 
 ```html
 <!-- index.html -->
@@ -82,5 +83,4 @@ We are going to create the basic files required for a simple front-end game in f
 .game-outline {
 	outline: 1px solid orange;
 }
-
 ```
