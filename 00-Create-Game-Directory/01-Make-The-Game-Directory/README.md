@@ -20,6 +20,7 @@ We are going to create the basic files required for a simple front-end game in f
 
 1. Create a game folder
 - Make a folder called `Hangman-Game`
+	
 	This is where we will hold the primary game files
 
 
