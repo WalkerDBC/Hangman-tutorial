@@ -16,7 +16,7 @@ We are going to create the basic files required for a simple front-end game in f
 - Sublime or other basic text editor
 - Internet browser (e.g Chrome)
 
-# Start building!
+## Start building!
 
 1. Create a game folder
 - make folder called `Hangman-Game`
@@ -48,7 +48,6 @@ We are going to create the basic files required for a simple front-end game in f
 <body>
 	<!-- 02. Add a little content... -->
 	<h1>Hello World!</h1>
-
 </body>
 
 </html>
