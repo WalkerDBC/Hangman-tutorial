@@ -21,19 +21,14 @@ We are going to create the basic files required for a simple front-end game in f
 1. Create a game folder
 
 	This is where we will hold the primary game files
-- Make a folder called `Hangman-Game`
-	
-
+	- Make a folder called `Hangman-Game`
 
 2. Make basic HTMl, CSS, and JS files
 	
 	Inside of this folder, place the following files
-	- a. `index.html`
-		- this is the home page for the game
-	- b.  `main.css`
-		- this is the file used to create the look of the page
-	- c. `main.js`
-		- this is the file used for the game logic and behavior
+	- a. `index.html`: this is the home page for the game
+	- b.  `main.css`: this is the file used to create the look of the page
+	- c. `main.js`: this is the file used for the game logic and behavior
 
 3. Add some simple code
 
