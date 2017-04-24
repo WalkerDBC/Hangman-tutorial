@@ -20,20 +20,21 @@ We are going to create the basic files required for a simple front-end game in f
 
 1. Create a game folder
 
-	This is where we will hold the primary game files
-	- Make a folder called `Hangman-Game`
+This is where we will hold the primary game files
+
+a. Make a folder called `Hangman-Game`
 
 2. Make basic HTMl, CSS, and JS files
 	
 Inside of this folder, place the following files
 
-	a. `index.html`: this is the home page for the game
-	b.  `main.css`: this is the file used to create the look of the page
-	c. `main.js`: this is the file used for the game logic and behavior
+a. `index.html`: this is the home page for the game
+b.  `main.css`: this is the file used to create the look of the page
+c. `main.js`: this is the file used for the game logic and behavior
 
 3. Add some simple code
 
-	Now lets add just a little code so that we can see how everything is linking and working
+Now lets add just a little code so that we can see how everything is linking and working
 
 a. Create a very basic webpage:
 
@@ -68,15 +69,13 @@ b. Check out the web page in your browser
 
 c. In `index.html`, add a`.game-outline` class to your `<div>` tag
 
-
 ```html
 <!-- index.html -->
 <div class="game-outline">
 	<h1>Hello World!</h1>
 </div>
 ```
-why not
-	- d. In `main.css`, add simple styling for the `.game-outline` class:
+d. In `main.css`, add simple styling for the `.game-outline` class:
 
 `in main.css:`
 
