@@ -1,6 +1,6 @@
-# Step 01: Making the Game directory
-
-## Previous build
+# Step 01:  Making the Game directory
+### Time estimate:  30 minutes
+### Previous build: [link]
 
 ## What we are doing
 We are going to create the basic files required for a simple front-end game in four (4) simple steps:
@@ -10,10 +10,9 @@ We are going to create the basic files required for a simple front-end game in f
 3. Add some simple functioning code
 4. Connect the files to each other
 
-### Time estimate:  30 minutes
-
 ## Tools needed
 - Sublime or other basic text editor
+- Basic HTML, CSS, an JS
 - Internet browser (e.g Chrome)
 
 ## Start building!
@@ -26,19 +25,19 @@ a. Make a folder called `Hangman-Game`
 
 ### 2. Make basic HTMl, CSS, and JS files
 	
-Inside of this folder, place the following files
+Inside of this folder, place the following files:
 
-a. `index.html`: this is the home page for the game
-b.  `main.css`: this is the file used to create the look of the page
-c. `main.js`: this is the file used for the game logic and behavior
+  - `index.html`: this is the home page for the game
+  - `main.css`: this is the file used to create the look of the page
+  - `main.js`: this is the file used for the game logic and behavior
 
 ### 3. Add some simple code
 
-Now lets add just a little code so that we can see how everything is linking and working
+Now let's add just a little code so that we can see how everything is working
 
 #### a. Create a very basic webpage:
 
-`in index.html:`
+in `index.html`:
 
 ```html
 <!DOCTYPE html>
@@ -61,22 +60,23 @@ Now lets add just a little code so that we can see how everything is linking and
 
 Now Check out the web page in your browser
 
-	- Right click on the index.html page in Sublime, and 
-	- Select `Open in Browser`, OR, from your browser
-	- Go to `file`, `open file`, 
-	- Find the file, and open it
-	- "Hello World!" should be displayed front and center
+- Right click on the index.html page in Sublime, and 
+- Select `Open in Browser`, OR, from your browser
+- Go to `file`, `open file`, 
+- Find the file, and open it
+- "Hello World!" should be displayed front and center
 
 #### b. Add a`.game-outline` class to your `<div>` tag
 
 in `index.html`:
 
 ```html
+<!-- index.html -->
 <div class="game-outline">
 	<h1>Hello World!</h1>
 </div>
 ```
-c. In `main.css`, add simple styling for the `.game-outline` class:
+#### c. Add simple styling for the `.game-outline` class:
 
 in `main.css`:
 
