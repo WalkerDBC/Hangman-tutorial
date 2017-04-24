@@ -115,7 +115,7 @@ in the `<head>` section of `index.html`:
 </head>
 ```
 
-* Check it out. Refresh your webpage. Now you should see an orange outline around the div containing your "Hello World!" message *
+*Check it out. Refresh your webpage. Now you should see an orange outline around the div containing your "Hello World!" message*
 
 #### b. Link the JS file
 
