@@ -17,7 +17,6 @@
 
   var tileArray = document.getElementsByClassName("board-cells")
 
-
   var removeTile = function() {
 
     // Determine the current length of the array
