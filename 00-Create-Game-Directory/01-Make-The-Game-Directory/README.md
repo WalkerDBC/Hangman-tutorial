@@ -36,8 +36,8 @@ We are going to create the basic files required for a simple front-end game in f
 
 	- a. Add simple html content to `index.html`:
 
+`in index.html`
 ```html
-<!-- index.html -->
 <!DOCTYPE html>
 <html>
 
@@ -72,7 +72,8 @@ We are going to create the basic files required for a simple front-end game in f
 ```
 	- d. In `main.css`, add simple styling for the `.game-outline` class:
 
-//main.css
+` in main.css`
+
 ```css
 /*  OUTLINE STYLING */
 /* Provide a visualization of divs during development */
