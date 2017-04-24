@@ -19,7 +19,7 @@ We are going to create the basic files required for a simple front-end game in f
 ## Start building!
 
 1. Create a game folder
-- make folder called `Hangman-Game`
+- Make a folder called `Hangman-Game`
 	- this is where we will hold the primary game files
 
 
@@ -34,7 +34,7 @@ We are going to create the basic files required for a simple front-end game in f
 		- this is the file used for the game logic and behavior
 
 3. Add some simple code
-- add simple html content to `index.html`:
+- a. Add simple html content to `index.html`:
 
 ```html
 <!-- index.html -->
@@ -56,17 +56,23 @@ We are going to create the basic files required for a simple front-end game in f
 
 </html>
 ```
+- b. Check out the page
+	- Right click on the index.html page in Sublime, and 
+	- Select `Open in Browser`, OR, from your browser
+	- Go to `file`, `open file`, 
+	- Find the file, and open it
+	- "Hello World!" should be displayed front and center
 
-- add simple stying to our css file `main.css`:
-
-```css
-
-
-```
-- add a `.game-outline` class to your html `<div>` tag
+- c. Add a `.game-outline` class to your html `<div>` tag
 
 ```html
 <!-- index.html -->
+	<div clas>
+		<h1>Hello World!</h1>
+```
+- d. In `main.css`, add simple stying for the `.game-outline` class:
 
+
+```css
 
 ```
