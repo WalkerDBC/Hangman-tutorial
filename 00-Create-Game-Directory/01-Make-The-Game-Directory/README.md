@@ -19,7 +19,7 @@ We are going to create the basic files required for a simple front-end game in f
 
 ## Start building!
 
-1. Create a game folder
+### 1. Create a game folder
 
 This is where we will hold the primary game files
 
