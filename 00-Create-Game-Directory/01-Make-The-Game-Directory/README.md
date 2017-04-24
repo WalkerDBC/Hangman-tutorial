@@ -38,24 +38,24 @@ We are going to create the basic files required for a simple front-end game in f
 
 `in index.html:`
 
-```html
-<!DOCTYPE html>
-<html>
+	```html
+	<!DOCTYPE html>
+	<html>
 
-<head>
-	<!-- 01. Provide a ti tle for your game -->
-	<title>My-Hangman</title>
-</head>
+	<head>
+		<!-- 01. Provide a ti tle for your game -->
+		<title>My-Hangman</title>
+	</head>
 
-<body>
-	<!-- 02. Add a little content... -->
-	<div>
-		<h1>Hello World!</h1>
-	</div>
-</body>
+	<body>
+		<!-- 02. Add a little content... -->
+		<div>
+			<h1>Hello World!</h1>
+		</div>
+	</body>
 
-</html>
-```
+	</html>
+	```
 
 	- b. Check out the web page in your browser
 		- Right click on the index.html page in Sublime, and 
