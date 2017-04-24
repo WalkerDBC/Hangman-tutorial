@@ -11,7 +11,7 @@ We are going to create the basic files required for a simple front-end game in f
 4. Connect the files to each other
 5. Admire our progess
 
-## Time estimate:  30 minutes
+### Time estimate:  30 minutes
 
 ## Tools needed
 - Sublime or other basic text editor
@@ -25,7 +25,7 @@ This is where we will hold the primary game files
 
 a. Make a folder called `Hangman-Game`
 
-#### 2. Make basic HTMl, CSS, and JS files
+### 2. Make basic HTMl, CSS, and JS files
 	
 Inside of this folder, place the following files
 
@@ -33,7 +33,7 @@ a. `index.html`: this is the home page for the game
 b.  `main.css`: this is the file used to create the look of the page
 c. `main.js`: this is the file used for the game logic and behavior
 
-#### 3. Add some simple code
+### 3. Add some simple code
 
 Now lets add just a little code so that we can see how everything is linking and working
 
@@ -79,23 +79,41 @@ c. In `main.css`, add simple styling for the `.game-outline` class:
 }
 ```
 
-d. In `main.js`, add simple js code
+d. Add some simple js code
 
-`in main.js:`
+in `main.js:`
 
 ```javascript
-
 // Add some code to trigger stronger error messages
 "use strict()";
 
 // Add at simple bit of code to verify the linkage
 
 alert("javaScript is connected")
+```
+### 4. Connect the files to each other
+a. Link the CSS file to HTML file
 
+in the `<head>` section of `index.html`:
+
+```html
+<head>
+	<!-- 01. Provide a title for your game -->
+	<title>My-Hangman</title>
+	
+	<!-- 03. Add a link for the CSS file -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
 ```
 
+b. Link the JS file
 
-5. Admire our progress
+Always some controversy about where to put the js link.  I like to put it at the bottom of page for a simple app like this one.  That way, we know the page will load before the js file is used.
+
+in the `<head>` section of `index.html`:
+
+
+### 5. Admire our progress
 
 Check out the web page in your browser
 
