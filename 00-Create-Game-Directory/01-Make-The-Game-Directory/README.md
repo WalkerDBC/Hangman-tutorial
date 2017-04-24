@@ -72,7 +72,6 @@ Now Check out the web page in your browser
 in `index.html`:
 
 ```html
-<!-- index.html -->
 <div class="game-outline">
 	<h1>Hello World!</h1>
 </div>
