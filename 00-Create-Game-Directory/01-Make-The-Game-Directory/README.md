@@ -7,7 +7,7 @@ We are going to create the basic files required for a simple front-end game in f
 
 1. Create a game folder
 2. Make basic HTMl, CSS, and JS files
-3. Add some simple code
+3. Add some simple functioning code
 4. Connect the files to each other
 
 ## Time estimate:  30 minutes
@@ -63,12 +63,13 @@ We are going to create the basic files required for a simple front-end game in f
 	- Find the file, and open it
 	- "Hello World!" should be displayed front and center
 
-- c. Add a `.game-outline` class to your html `<div>` tag
+- c. In `index.html`, add a`.game-outline` class to your `<div>` tag
 
 ```html
 <!-- index.html -->
-	<div clas>
-		<h1>Hello World!</h1>
+<div class="game-outline">
+	<h1>Hello World!</h1>
+</div>
 ```
 - d. In `main.css`, add simple stying for the `.game-outline` class:
 
