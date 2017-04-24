@@ -33,9 +33,11 @@ We are going to create the basic files required for a simple front-end game in f
 
 3. Add some simple code
 - make a simple html page:
-`//index.html`
 
 ```html
+<!-- index.html -->
+`//index.html`
+
 <!DOCTYPE html>
 <html>
 
